@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "yummyfood",
+  "version": "1.0.0",
+
+  "name": "YummyFood",
+  "description": "The mod adds more food.",
+  "authors": [
+    "squid233"
+  ],
+  "contact": {
+    "homepage": "https://www.mcbbs.net/",
+    "sources": "https://github.com/squid233/YummyFood"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/yummyfood/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.yummyfood.YummyFood"
+    ]
+  },
+  "mixins": [
+    "yummyfood.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

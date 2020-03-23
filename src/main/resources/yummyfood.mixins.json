@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "io.github.yummyfood.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "YummyFoodMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
